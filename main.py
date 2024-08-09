@@ -8,6 +8,6 @@ print(my_screen.canvheight)
 timmy.shape("turtle")
 timmy.color('CornflowerBlue')
 timmy.penup()
-timmy.forward(100)
+timmy.forward(120)
 
 my_screen.exitonclick()
