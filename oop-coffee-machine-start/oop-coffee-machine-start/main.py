@@ -5,7 +5,7 @@ from money_machine import MoneyMachine
 coffee_maker = CoffeeMaker()
 money_machine = MoneyMachine()
 menu = Menu()
-menu_item = MenuItem()
+menu_item = Menu()
 
 # print(menu.get_items())
 # coffee_maker.is_resource_sufficient("espresso")
@@ -18,7 +18,8 @@ while is_on:
       is_on = False
   elif choice == "latte" or "espresso" or "cappuccino":
       drink = menu.find_drink(choice)
-      coffee_maker.is_resource_sufficient(drink)
+      print(coffee_maker.is_resource_sufficient(drink))
+      is_on = False
 
   else:
       break
