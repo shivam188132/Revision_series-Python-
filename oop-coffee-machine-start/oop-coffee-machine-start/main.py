@@ -7,7 +7,7 @@ money_machine = MoneyMachine()
 menu = Menu()
 menu_item = Menu()
 
-# print(menu.get_items())
+print(menu.get_items())
 # coffee_maker.is_resource_sufficient("espresso")
 # money_machine.report()
 choice = input("what do you need? \nlatte | espresso | cappuccino\n")
