@@ -15,4 +15,4 @@ for i in range(3):
 
 
 my_screen.exitonclick()
-print("hello world")
+print("hell")
